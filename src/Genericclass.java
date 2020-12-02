@@ -21,5 +21,11 @@ public class Genericclass {
         System.out.println("Maximum of 3.1,2.1,1.1 is: "+maximum(3.1,2.1,1.1));
         System.out.println("Maximum of 4.5,5.5,3.5 is: "+maximum(4.5,5.5,3.5));
         System.out.println("Maximum of 4.5,5.5,6.5 is: "+maximum(4.5,5.5,6.5));
+
+        System.out.println("Finding maximum for Strings");
+        System.out.println("Maximum of Apple, Peach, Banana is: "+maximum("Apple","Peach","Banana"));
+        System.out.println("Maximum of Peach, Banana, Apple is: "+maximum("Apple","Banana","Peach"));
+        System.out.println("Maximum of Apple, Peach, Banana is: "+maximum("Banana","Apple","Peach"));
+
     }
 }
